@@ -1,5 +1,5 @@
 /**
- * @file Pixel.cpp
+ * @file Image.cpp
  * @author @bakraw
  * @version 0.1
  * @date 2025-01-13
