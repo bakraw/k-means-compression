@@ -38,7 +38,7 @@ namespace Kmeans {
     class Image {
     public:
         // Constructeur & destructeur
-        Image(std::string_view path, const bool &debug = false);;
+        Image(std::string_view path, const bool &debug = false);
         ~Image();
 
         // Méthodes publiques
