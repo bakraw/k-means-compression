@@ -6,6 +6,8 @@ J'utilise ici OpenCV car c'est le standard de facto pour le traitement d'image e
 
 On n'utilisera évidemment pas l'implémentation déjà existante de k-means de OpenCV car cela n'aurait aucun intérêt. OpenCV sera utilisé pour la lecture et l'écriture d'image, et pour les typedefs assez pratiques (mais dont j'aimerais me débarasser, c.f. [plus bas](#limitations)).
 
+Créé dans le cadre d'un projet universitaire.
+
 ## Installation
 
 Télécharger le binaire précompilé dans les [releases](https://github.com/bakraw/k-means-compression/releases) ou compiler la source (**s'assurer que CMake, OpenCV et OpenMP soient installés sur votre machine**).
