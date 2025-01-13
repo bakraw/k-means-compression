@@ -45,4 +45,5 @@ Avec k = 32 et un seuil à 0.75, on passe sur cette image de 1.5 MiB à ~650 KiB
 Je compte continuer à améliorer ce programme qui est pour l'instant l'implémentation la plus basique possible de k-means, et qui est donc **atrocement lent** (préparez votre après-midi si vous voulez compresser une image 4K ou fixer k à n'importe quelle valeur supérieure à 40). Il n'y pour l'instant qu'un parallélisme très simpliste avec OpenMP (à base de ```#pragma omp parallel for``` à droite à gauche), mais j'ai l'intention de faire plusieurs modifications à l'avenir, nommément :
 - implémenter ma propre version des typedefs de vecteurs de OpenCV (```cv::Vec3f```, etc.) et éventuellement de cv::Mat qui sont lents et incompatibles avec certaines fonctionnalités de OpenMP.
 - utiliser l'algorithme de Elkan, k-means++, etc.
+- une forme de batch processing quelconque ?
 - utiliser CUDA ?
